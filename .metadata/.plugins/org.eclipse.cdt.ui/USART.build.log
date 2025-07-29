@@ -1,0 +1,20 @@
+22:10:57 **** Incremental Build of configuration Debug for project USART ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/USART/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/USART/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/USART/Core/Src/Driver_Library" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Admin\Desktop\STM32_Driver\USART\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USART.elf
+ 
+arm-none-eabi-size   USART.elf 
+arm-none-eabi-objdump -h -S  USART.elf  > "USART.list"
+arm-none-eabi-objcopy  -O ihex  USART.elf  "USART.hex"
+   text	   data	    bss	    dec	    hex	filename
+  32476	    500	   1764	  34740	   87b4	USART.elf
+Finished building: default.size.stdout
+ 
+Finished building: USART.list
+ 
+Finished building: USART.hex
+ 
+
+22:10:57 Build Finished. 0 errors, 0 warnings. (took 783ms)
+

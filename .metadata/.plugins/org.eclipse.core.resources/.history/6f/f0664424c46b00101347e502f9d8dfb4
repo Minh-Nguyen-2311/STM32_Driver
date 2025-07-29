@@ -1,0 +1,25 @@
+/*
+ * UART_Console.c
+ *
+ *  Created on: Jul 28, 2025
+ *      Author: Admin
+ */
+
+#include "OOP.h"
+#include "OOP_Console.h"
+#include "USART_LCD.h"
+
+#define NUM_LCD	4
+
+USART_LCD_st LCD[NUM_LCD];
+
+OOP const *consoles[] =
+{
+	&LCD[0].super,	&LCD[1].super,	&LCD[2].super,	&LCD[3].super
+};
+
+void User_ctor(infor_console* consoles)
+{
+	LCD_buf_ctor(&LCD[0], NULL, 0, 0, 0);
+
+}

@@ -1,0 +1,50 @@
+/*
+ * OOP.c
+ *
+ *  Created on: Jul 28, 2025
+ *      Author: Admin
+ */
+
+#include "OOP.h"
+#include <assert.h>
+
+static uint32_t Init(OOP const * const me);
+static void Process(OOP const * const me);
+
+void OOP_ctor(OOP* const me, void* data)
+{
+	static struct VirtualTable const vtbl = {
+			Init,
+			Process
+	};
+	me->vptr = &vtbl;
+	me->data = data;
+}
+
+static inline uint32_t Init(OOP const * const me)
+{
+	assert(0);
+	return 0;
+}
+
+static inline void Process(OOP const * const me)
+{
+	assert(0);
+	return;
+}
+
+void InitAll(OOP const *Consoles[], uint8_t nConsoles)
+{
+	for(int i=0; i<nConsoles; i++)
+	{
+		Init(Consoles[i]);
+	}
+}
+
+void ProcessAll(OOP const *Consoles[], uint8_t nConsoles)
+{
+	for(int i=0; i<nConsoles; i++)
+	{
+		Process(Consoles[i]);
+	}
+}

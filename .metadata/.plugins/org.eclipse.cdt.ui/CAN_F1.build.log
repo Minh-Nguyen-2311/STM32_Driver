@@ -1,0 +1,16 @@
+13:20:37 **** Incremental Build of configuration Debug for project CAN_F1 ****
+make -j16 all 
+arm-none-eabi-gcc -o "CAN_F1.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Admin\Desktop\STM32_Driver\CAN_F1\STM32F105RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_F1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_F1.elf
+ 
+arm-none-eabi-size   CAN_F1.elf 
+arm-none-eabi-objdump -h -S  CAN_F1.elf  > "CAN_F1.list"
+   text	   data	    bss	    dec	    hex	filename
+   6744	     12	   1580	   8336	   2090	CAN_F1.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_F1.list
+ 
+
+13:20:38 Build Finished. 0 errors, 0 warnings. (took 416ms)
+

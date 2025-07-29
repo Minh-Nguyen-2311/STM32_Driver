@@ -1,0 +1,16 @@
+09:14:03 **** Incremental Build of configuration Debug for project SPI ****
+make -j16 all 
+arm-none-eabi-gcc -o "SPI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Admin\Desktop\STM32_Driver\SPI\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI.elf
+ 
+arm-none-eabi-size   SPI.elf 
+arm-none-eabi-objdump -h -S  SPI.elf  > "SPI.list"
+   text	   data	    bss	    dec	    hex	filename
+   8192	     12	   1812	  10016	   2720	SPI.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI.list
+ 
+
+09:14:03 Build Finished. 0 errors, 0 warnings. (took 605ms)
+

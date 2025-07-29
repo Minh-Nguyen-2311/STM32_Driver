@@ -1,0 +1,2 @@
+../Core/Src/Driver_Library/Nextion_LCD.c:13:6:Send2Gauge	120	static
+../Core/Src/Driver_Library/Nextion_LCD.c:23:6:Send2Num	56	static

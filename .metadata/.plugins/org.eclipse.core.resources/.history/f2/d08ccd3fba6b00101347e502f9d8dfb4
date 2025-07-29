@@ -1,0 +1,29 @@
+/*
+ * USART_LCD.c
+ *
+ *  Created on: Jul 28, 2025
+ *      Author: Admin
+ */
+
+#include "USART_LCD.h"
+
+static uint32_t LCD_Init_(Console const * const me);
+static void LCD_Process_(Console const * const me);
+
+void LCD_buf_ctor(USART_LCD_st * const me, void *data, uint8_t ID_Signal, uint8_t mode, uint8_t num_lcd)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&LCD_Init_,
+			&LCD_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->ID_tinhieu = ID_tinhieu;
+	me->mode = mode;
+	me->num_lcd = number_lcd;
+}

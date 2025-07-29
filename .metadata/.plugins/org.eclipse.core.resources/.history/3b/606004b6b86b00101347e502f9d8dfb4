@@ -1,0 +1,37 @@
+/*
+ * OOP.h
+ *
+ *  Created on: Jul 28, 2025
+ *      Author: Admin
+ */
+
+#ifndef INC_OOP_H_
+#define INC_OOP_H_
+
+#include <stdint.h>
+#include "stddef.h"
+
+typedef struct _OOP{
+	struct VirtualTable const *vptr;
+	void *data;
+}OOP;
+
+struct VirtualTable{
+	uint32_t (*Init)(OOP const * const me);
+	void (*Process)(OOP const * const me);
+};
+
+void OOP_ctor(OOP* const me, void* data);
+
+static inline uint32_t Init(OOP const * const me){
+	return (*me->vptr->Init)(me);
+}
+
+static inline void Process(OOP const * const me){
+	(*me->vptr->Process)(me);
+}
+
+void InitAll(OOP const *Consoles[], uint8_t nConsoles);
+void ProcessAll(OOP const *Consoles[], uint8_t nConsoles);
+
+#endif /* INC_OOP_H_ */
