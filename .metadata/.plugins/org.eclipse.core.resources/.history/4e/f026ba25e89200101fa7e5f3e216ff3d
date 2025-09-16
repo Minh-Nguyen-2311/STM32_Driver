@@ -1,0 +1,50 @@
+/*
+ * DAC_Process.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "DAC_Process.h"
+
+static uint32_t DAC_Init_(OOP const * const me);
+static void DAC_Process_(OOP const * const me);
+
+void DAC_buf_ctor(DAC_st * const me, void *data, uint8_t ID_Signal, uint8_t num_dac)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&DAC_Init_,
+			&DAC_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->DAC_data[SINE_SAMPLES] = 0;
+
+	me->ID_Signal = ID_Signal;
+	me->num_dac = num_dac;
+}
+
+static uint32_t DAC_Init_(OOP const * const me)
+{
+	DAC_st * const me_ = (DAC_st *)me;
+	// Start DAC with DMA
+	HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, sine_wave, SINE_SAMPLES, DAC_ALIGN_12B_R);
+	// Start Timer
+	HAL_TIM_Base_Start(&htim6);
+	(void)me_; //Avoid compiler error
+	return 0;
+}
+
+static void DAC_Process_(OOP const * const me)
+{
+	DAC_st * const _me = (DAC_st *)me;
+	for(int i=0; i<SINE_SAMPLES; i++)
+	{
+		_me->DAC_data[i] = SineWaveCreate();
+	}
+}

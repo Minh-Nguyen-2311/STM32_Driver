@@ -1,16 +1,17 @@
-13:20:37 **** Incremental Build of configuration Debug for project CAN_F1 ****
+16:41:35 **** Incremental Build of configuration Debug for project CAN_F1 ****
 make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Driver_Library/Queue_LL.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F105xC -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/CAN_F1/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/CAN_F1/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/CAN_F1/Core/Src/Driver_Library" -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver_Library/Queue_LL.d" -MT"Core/Src/Driver_Library/Queue_LL.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/Driver_Library/Queue_LL.o"
 arm-none-eabi-gcc -o "CAN_F1.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Admin\Desktop\STM32_Driver\CAN_F1\STM32F105RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_F1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: CAN_F1.elf
  
 arm-none-eabi-size   CAN_F1.elf 
 arm-none-eabi-objdump -h -S  CAN_F1.elf  > "CAN_F1.list"
    text	   data	    bss	    dec	    hex	filename
-   6744	     12	   1580	   8336	   2090	CAN_F1.elf
+   9380	    112	   1648	  11140	   2b84	CAN_F1.elf
 Finished building: default.size.stdout
  
 Finished building: CAN_F1.list
  
 
-13:20:38 Build Finished. 0 errors, 0 warnings. (took 416ms)
+16:41:36 Build Finished. 0 errors, 0 warnings. (took 514ms)
 

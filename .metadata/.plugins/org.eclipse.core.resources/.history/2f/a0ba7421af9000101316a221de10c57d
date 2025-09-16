@@ -1,0 +1,25 @@
+/*
+ * I2C_DS3231.c
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#include "I2C_DS3231.h"
+
+static uint32_t I2C_Init_(OOP const * const me);
+static void I2C_Process_(OOP const * const me);
+
+void I2C_buf_ctor(DS3231_st * const me, void *data, uint8_t ID_Signal, uint8_t num_i2c)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&LCD_Init_,
+			&LCD_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+}

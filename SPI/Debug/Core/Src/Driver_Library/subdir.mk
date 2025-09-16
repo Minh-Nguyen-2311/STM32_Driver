@@ -5,16 +5,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/Driver_Library/Delay.c \
 ../Core/Src/Driver_Library/Hall_Sensor.c \
-../Core/Src/Driver_Library/Waveshare_LCD.c 
+../Core/Src/Driver_Library/Waveshare_LCD.c \
+../Core/Src/Driver_Library/fonts.c 
 
 OBJS += \
+./Core/Src/Driver_Library/Delay.o \
 ./Core/Src/Driver_Library/Hall_Sensor.o \
-./Core/Src/Driver_Library/Waveshare_LCD.o 
+./Core/Src/Driver_Library/Waveshare_LCD.o \
+./Core/Src/Driver_Library/fonts.o 
 
 C_DEPS += \
+./Core/Src/Driver_Library/Delay.d \
 ./Core/Src/Driver_Library/Hall_Sensor.d \
-./Core/Src/Driver_Library/Waveshare_LCD.d 
+./Core/Src/Driver_Library/Waveshare_LCD.d \
+./Core/Src/Driver_Library/fonts.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -24,7 +30,7 @@ Core/Src/Driver_Library/%.o Core/Src/Driver_Library/%.su: ../Core/Src/Driver_Lib
 clean: clean-Core-2f-Src-2f-Driver_Library
 
 clean-Core-2f-Src-2f-Driver_Library:
-	-$(RM) ./Core/Src/Driver_Library/Hall_Sensor.d ./Core/Src/Driver_Library/Hall_Sensor.o ./Core/Src/Driver_Library/Hall_Sensor.su ./Core/Src/Driver_Library/Waveshare_LCD.d ./Core/Src/Driver_Library/Waveshare_LCD.o ./Core/Src/Driver_Library/Waveshare_LCD.su
+	-$(RM) ./Core/Src/Driver_Library/Delay.d ./Core/Src/Driver_Library/Delay.o ./Core/Src/Driver_Library/Delay.su ./Core/Src/Driver_Library/Hall_Sensor.d ./Core/Src/Driver_Library/Hall_Sensor.o ./Core/Src/Driver_Library/Hall_Sensor.su ./Core/Src/Driver_Library/Waveshare_LCD.d ./Core/Src/Driver_Library/Waveshare_LCD.o ./Core/Src/Driver_Library/Waveshare_LCD.su ./Core/Src/Driver_Library/fonts.d ./Core/Src/Driver_Library/fonts.o ./Core/Src/Driver_Library/fonts.su
 
 .PHONY: clean-Core-2f-Src-2f-Driver_Library
 

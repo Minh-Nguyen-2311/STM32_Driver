@@ -1,0 +1,13 @@
+/*
+ * CAN_F1.c
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+#include "CAN_F1.h"
+#include "Queue_LL.h"
+
+CAN_TxHeaderTypeDef   	TxHeader;
+CAN_RxHeaderTypeDef   	RxHeader;
+uint8_t           		TxData[8];
+uint8_t          	 	RxData[8];

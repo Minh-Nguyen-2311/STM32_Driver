@@ -1,0 +1,31 @@
+/*
+ * ADC_Console.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "OOP.h"
+#include "adc.h"
+#include "OOP_Console.h"
+#include "ADC_Process.h"
+
+ADC_st Adc[Num_ADC];
+
+OOP const *consoles[] =
+{
+	&Adc[0].super,	&Adc[1].super,	&Adc[2].super,	&Adc[3].super
+};
+
+void User_ctor(infor_console* console)
+{
+	ADC_buf_ctor(&Adc[0], NULL, 1, 0);
+	ADC_buf_ctor(&Adc[1], NULL, 2, 1);
+	ADC_buf_ctor(&Adc[2], NULL, 3, 2);
+	ADC_buf_ctor(&Adc[3], NULL, 4, 3);
+
+	console->NumberOfDevices = sizeof(consoles)/sizeof(OOP*);
+	console->num_adc = Num_ADC;
+	console->pAdc = Adc;
+	InitAll(consoles, console->NumberOfDevices);
+}

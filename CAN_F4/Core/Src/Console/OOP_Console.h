@@ -8,15 +8,15 @@
 #ifndef INC_OOP_CONSOLE_H_
 #define INC_OOP_CONSOLE_H_
 
-#include "USART_LCD.h"
+#include "CAN_Process.h"
 
 void User_Loop(void);
 
 typedef struct infor_console_
 {
 	uint8_t NumberOfDevices;
-	uint8_t num_lcd;
-	USART_LCD_st *pLCD;
+	uint8_t num_can;
+	CAN_st *pCAN;
 }infor_console;
 
 void User_ctor(infor_console*);

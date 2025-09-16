@@ -1,0 +1,20 @@
+/*
+ * SineWave.h
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_DRIVER_LIBRARY_SINEWAVE_H_
+#define SRC_DRIVER_LIBRARY_SINEWAVE_H_
+
+#include "stm32f4xx_hal.h"
+#include "main.h"
+#include <math.h>
+
+#define SINE_SAMPLES 100
+#define PI 3.1415926
+
+uint32_t SineWaveCreate(void);
+
+#endif /* SRC_DRIVER_LIBRARY_SINEWAVE_H_ */

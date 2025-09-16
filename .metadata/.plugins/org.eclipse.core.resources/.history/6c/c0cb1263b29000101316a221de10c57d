@@ -1,0 +1,12 @@
+/*
+ * I2C_Console.c
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#include "OOP.h"
+#include "OOP_Console.h"
+#include "I2C_DS3231.h"
+
+#define NUM_I2C	4

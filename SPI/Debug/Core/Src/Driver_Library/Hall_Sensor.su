@@ -1,0 +1,11 @@
+../Core/Src/Driver_Library/Hall_Sensor.c:15:6:csHigh	16	static
+../Core/Src/Driver_Library/Hall_Sensor.c:23:6:csLow	16	static
+../Core/Src/Driver_Library/Hall_Sensor.c:35:19:spiSend8Bytes	32	static
+../Core/Src/Driver_Library/Hall_Sensor.c:47:19:sendGet1	16	static
+../Core/Src/Driver_Library/Hall_Sensor.c:60:19:sendNode	16	static
+../Core/Src/Driver_Library/Hall_Sensor.c:74:6:hallEncoderInit	24	static
+../Core/Src/Driver_Library/Hall_Sensor.c:85:9:covertCycle2Liner	40	static
+../Core/Src/Driver_Library/Hall_Sensor.c:108:9:getPulseLinear	24	static
+../Core/Src/Driver_Library/Hall_Sensor.c:123:7:getPulseCycle	32	static
+../Core/Src/Driver_Library/Hall_Sensor.c:144:7:getReversePulseCycle	32	static
+../Core/Src/Driver_Library/Hall_Sensor.c:166:6:setPulseZero	16	static

@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/Driver_Library/CAN_F4.c 
+../Core/Src/Driver_Library/CAN_F4.c \
+../Core/Src/Driver_Library/Queue_LL.c 
 
 OBJS += \
-./Core/Src/Driver_Library/CAN_F4.o 
+./Core/Src/Driver_Library/CAN_F4.o \
+./Core/Src/Driver_Library/Queue_LL.o 
 
 C_DEPS += \
-./Core/Src/Driver_Library/CAN_F4.d 
+./Core/Src/Driver_Library/CAN_F4.d \
+./Core/Src/Driver_Library/Queue_LL.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ Core/Src/Driver_Library/%.o Core/Src/Driver_Library/%.su: ../Core/Src/Driver_Lib
 clean: clean-Core-2f-Src-2f-Driver_Library
 
 clean-Core-2f-Src-2f-Driver_Library:
-	-$(RM) ./Core/Src/Driver_Library/CAN_F4.d ./Core/Src/Driver_Library/CAN_F4.o ./Core/Src/Driver_Library/CAN_F4.su
+	-$(RM) ./Core/Src/Driver_Library/CAN_F4.d ./Core/Src/Driver_Library/CAN_F4.o ./Core/Src/Driver_Library/CAN_F4.su ./Core/Src/Driver_Library/Queue_LL.d ./Core/Src/Driver_Library/Queue_LL.o ./Core/Src/Driver_Library/Queue_LL.su
 
 .PHONY: clean-Core-2f-Src-2f-Driver_Library
 

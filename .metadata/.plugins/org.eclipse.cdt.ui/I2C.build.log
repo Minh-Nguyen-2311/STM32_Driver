@@ -1,4 +1,4 @@
-09:49:36 **** Incremental Build of configuration Debug for project I2C ****
+13:46:35 **** Build of configuration Debug for project I2C ****
 make -j16 all 
 arm-none-eabi-size   I2C.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   I2C.elf
 Finished building: default.size.stdout
  
 
-09:49:36 Build Finished. 0 errors, 0 warnings. (took 215ms)
+13:46:36 Build Finished. 0 errors, 0 warnings. (took 615ms)
 

@@ -1,0 +1,119 @@
+/*
+ * LED_Process.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "LED_Process.h"
+
+static uint32_t ChipLed_Init_(OOP const * const me);
+static void ChipLed_Process_(OOP const * const me);
+
+void ChipLed_ctor(ChipLed * const me, void *data,
+	uint8_t Din,
+	uint8_t Id_Din,
+	uint8_t ID_tinhieu,
+	uint8_t Status,
+	uint8_t led_state) {
+
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the ChipLed class */
+			&ChipLed_Init_,
+			&ChipLed_Process_
+	};
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->Din = Din;
+	me->ID_Din = Id_Din;
+	me->ID_tinhieu = ID_tinhieu;
+	me->format_msg.Status = Status;
+	me->Current_Color = 0;
+	me->format_msg.freq_time = 0 ;
+	me->freq_count = 0;
+	me->format_msg.Blue = 0;
+	me->format_msg.Red = 0;
+	me->format_msg.Green = 0;
+	me->led_state = 0;
+	me->fist_time = 1;
+	me->IsChange = 0;
+	me->len = 10;
+	me->flag_led = 0;
+}
+
+static uint32_t ChipLed_Init_(OOP const * const me) {
+	ChipLed const * const me_ = (ChipLed const *)me;
+	(void)me_;  // avoid complier warning!
+	return 0;
+}
+
+static void ChipLed_Process_(OOP const * const me) {
+	ChipLed * const _me = (ChipLed *)me;
+
+	switch (_me->format_msg.Status)
+	{
+	case OFF_LED:
+		_me->fist_time = 1;
+		_me->format_msg.Red = 0;
+		_me->format_msg.Green = 0;
+		_me->format_msg.Blue = 0;
+		_me->led_state = 0;
+		break;
+	case ON_LED:
+		_me->fist_time = 1;
+		_me->led_state = 1;
+		break;
+	case BLINK_LED:
+		if(!_me->fist_time) // normal
+		{
+			if(_me->freq_count * _me->format_msg.freq_time >= 1000 )  // 1000ms
+			{
+				if(!_me->led_state)	//off
+				{
+					_me->format_msg.Red 	= (_me->Current_Color & 0xFF0000) >> 16;
+					_me->format_msg.Green 	= (_me->Current_Color & 0xFF00) >> 8;
+					_me->format_msg.Blue 	= (_me->Current_Color & 0xFF);
+					_me->led_state = 1;
+				}
+				else 				//on
+				{
+					_me->Current_Color = (_me->format_msg.Red << 16) | (_me->format_msg.Green << 8) | (_me->format_msg.Blue);
+					_me->format_msg.Red = 0;
+					_me->format_msg.Green = 0;
+					_me->format_msg.Blue = 0;
+					_me->led_state = 0;
+				}
+				_me->freq_count = 0;
+				_me->IsChange = 1;
+			}
+		}
+		else // lần đầu
+		{
+			if(!_me->led_state)		//off
+				_me->led_state = 1;
+
+			else 					//on
+				_me->led_state = 0;
+
+			_me->fist_time = 0;
+		}
+		break;
+
+	default:
+		break;
+	}
+
+	if (_me->IsChange)
+	{
+		Set_Led(_me->Din, _me->ID_Din, _me->format_msg.Red, _me->format_msg.Green, _me->format_msg.Blue);
+		Set_Brightness(_me->Din, _me->ID_Din, _me->format_msg.Brightness);
+
+		if	   	(_me->Din == 1)	ICled_Send(&htim1, TIM_CHANNEL_1);
+		else if	(_me->Din == 2)	ICled_Send(&htim1, TIM_CHANNEL_2);
+
+		_me->IsChange = 0;
+	}
+}

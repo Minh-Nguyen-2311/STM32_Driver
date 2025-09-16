@@ -1,0 +1,5 @@
+../Core/Src/Buffer/SPI_Hall_Sensor.c:25:6:ECD_buf_ctor	24	static
+../Core/Src/Buffer/SPI_Hall_Sensor.c:47:17:ECD_Init_	24	static
+../Core/Src/Buffer/SPI_Hall_Sensor.c:76:7:unwrapped_angle	24	static
+../Core/Src/Buffer/SPI_Hall_Sensor.c:93:7:FirstOrderFilter	32	static
+../Core/Src/Buffer/SPI_Hall_Sensor.c:104:13:ECD_Process_	32	static

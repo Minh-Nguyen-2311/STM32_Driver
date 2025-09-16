@@ -1,0 +1,3 @@
+../Core/Src/Buffer/SPI_LCD.c:11:6:LCD_buf_ctor	24	static
+../Core/Src/Buffer/SPI_LCD.c:35:17:LCD_Init_	24	static
+../Core/Src/Buffer/SPI_LCD.c:59:13:LCD_Process_	24	static

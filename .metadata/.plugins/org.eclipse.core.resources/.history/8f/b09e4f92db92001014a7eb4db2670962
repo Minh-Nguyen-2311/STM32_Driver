@@ -1,0 +1,31 @@
+/*
+ * CAN_Process.h
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_BUFFER_CAN_PROCESS_H_
+#define SRC_BUFFER_CAN_PROCESS_H_
+
+#include "OOP.h"
+#include "main.h"
+#include "CAN_F1.h"
+
+typedef struct
+{
+	OOP super;
+
+	uint8_t ID_Signal;
+
+	uint16_t CAN_predata[4];
+	uint16_t CAN_currdata[4];
+
+	uint8_t mode;
+	uint8_t num_can;
+}CAN_st;
+
+void LCD_buf_ctor(USART_LCD_st * const me, void *data, uint8_t ID_Signal,
+		uint8_t mode, uint8_t num_lcd);
+
+#endif /* SRC_BUFFER_CAN_PROCESS_H_ */

@@ -2,6 +2,7 @@
 "./Core/Src/Console/CAN_Console.o"
 "./Core/Src/Console/OOP.o"
 "./Core/Src/Driver_Library/CAN_F1.o"
+"./Core/Src/Driver_Library/Queue_LL.o"
 "./Core/Src/can.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"

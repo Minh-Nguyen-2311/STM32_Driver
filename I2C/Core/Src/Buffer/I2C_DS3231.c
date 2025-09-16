@@ -5,4 +5,53 @@
  *      Author: Admin
  */
 
+#include "I2C_DS3231.h"
 
+static uint32_t I2C_Init_(OOP const * const me);
+static void I2C_Process_(OOP const * const me);
+
+extern void Get_Time(TIME *tim);
+extern float Get_Temp(void);
+extern void force_temp_conv(void);
+
+void I2C_buf_ctor(DS3231_st * const me, void *data, uint8_t ID_Signal, uint8_t num_i2c)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&I2C_Init_,
+			&I2C_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->ID_Signal = ID_Signal;
+
+	me->mTime->seconds = 0;
+	me->mTime->minutes = 0;
+	me->mTime->hour = 0;
+	me->mTime->dayofweek = 0;
+	me->mTime->dayofmonth = 0;
+	me->mTime->month = 0;
+	me->mTime->year = 0;
+
+	me->num_i2c = num_i2c;
+}
+
+static uint32_t I2C_Init_(OOP const * const me)
+{
+	DS3231_st * const me_ = (DS3231_st *)me;
+	(void)me_; //Avoid compiler error
+	return 0;
+}
+
+static void I2C_Process_(OOP const * const me)
+{
+	DS3231_st * const _me = (DS3231_st *)me;
+	Get_Time(_me->mTime);
+	force_temp_conv();
+	Get_Temp();
+	HAL_Delay(100);
+}

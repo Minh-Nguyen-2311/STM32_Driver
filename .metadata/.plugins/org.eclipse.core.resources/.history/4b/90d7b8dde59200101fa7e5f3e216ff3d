@@ -1,0 +1,31 @@
+/*
+ * DAC_Process.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "DAC_Process.h"
+
+static uint32_t DAC_Init_(OOP const * const me);
+static void DAC_Process_(OOP const * const me);
+
+void DAC_buf_ctor(CAN_st * const me, void *data, uint8_t ID_Signal, uint8_t num_dac)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&DAC_Init_,
+			&DAC_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->CAN_predata[4] = 0;
+	me->CAN_currdata[4] = 0;
+
+	me->ID_Signal = ID_Signal;
+	me->num_can = num_can;
+}

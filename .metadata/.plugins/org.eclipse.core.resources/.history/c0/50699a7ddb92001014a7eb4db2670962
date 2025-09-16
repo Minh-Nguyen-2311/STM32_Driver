@@ -1,0 +1,15 @@
+/*
+ * CAN_Process.h
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_BUFFER_CAN_PROCESS_H_
+#define SRC_BUFFER_CAN_PROCESS_H_
+
+#include "OOP.h"
+#include "main.h"
+#include "CAN_F1.h"
+
+#endif /* SRC_BUFFER_CAN_PROCESS_H_ */

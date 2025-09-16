@@ -8,6 +8,25 @@
 #ifndef SRC_BUFFER_CAN_PROCESS_H_
 #define SRC_BUFFER_CAN_PROCESS_H_
 
+#include "OOP.h"
+#include "main.h"
+#include "CAN_F4.h"
 
+typedef struct
+{
+	OOP super;
+
+	uint8_t ID_Signal;
+
+	uint8_t CAN_predata[4];
+	uint8_t CAN_currdata[4];
+
+	uint8_t mode;
+	uint8_t num_can;
+}CAN_st;
+
+void CAN_buf_ctor(CAN_st * const me, void *data, uint8_t ID_Signal, uint8_t num_can);
+
+extern CAN_HandleTypeDef hcan1;
 
 #endif /* SRC_BUFFER_CAN_PROCESS_H_ */

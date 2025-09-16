@@ -1,0 +1,74 @@
+/*
+ * CAN_Process.c
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#include "CAN_Process.h"
+
+static uint32_t CAN_Init_(OOP const * const me);
+static void CAN_Process_(OOP const * const me);
+
+void CAN_buf_ctor(CAN_st * const me, void *data, uint8_t ID_Signal, uint8_t num_can)
+{
+	static struct VirtualTable const vtbl = {
+			/* vtbl of the UART class */
+			&CAN_Init_,
+			&CAN_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = NULL;
+
+	me->CAN_predata = 0;
+	me->CAN_currdata = 0;
+
+	me->ID_Signal = ID_Signal;
+	me->num_can = num_can;
+}
+
+static uint32_t CAN_Init_(OOP const * const me)
+{
+	CAN_st * const me_ = (CAN_st *)me;
+	(void)me_; //Avoid compiler error
+	return 0;
+}
+
+static void CAN_Process_(OOP const * const me)
+{
+	CAN_st * const _me = (CAN_st *)me;
+	switch(_me->num_lcd)
+	{
+	case 0:
+		if(_me->CAN_predata[_me->num_can] != _me->CAN_currdata[_me->num_can])
+		{
+			CAN_Transmit(hcan, _me->CAN_currdata, sizeof(_me->CAN_currdata));
+			_me->CAN_predata[_me->num_can] = _me->CAN_currdata[_me->num_can]
+		}
+		break;
+	case 1:
+		if(_me->CAN_predata[_me->num_can] != _me->CAN_currdata[_me->num_can])
+		{
+			CAN_Transmit(hcan, _me->CAN_currdata, sizeof(_me->CAN_currdata));
+			_me->CAN_predata[_me->num_can] = _me->CAN_currdata[_me->num_can]
+		}
+		break;
+	case 2:
+		if(_me->CAN_predata[_me->num_can] != _me->CAN_currdata[_me->num_can])
+		{
+			CAN_Transmit(hcan, _me->CAN_currdata, sizeof(_me->CAN_currdata));
+			_me->CAN_predata[_me->num_can] = _me->CAN_currdata[_me->num_can]
+		}
+		break;
+	case 3:
+		if(_me->CAN_predata[_me->num_can] != _me->CAN_currdata[_me->num_can])
+		{
+			CAN_Transmit(hcan, _me->CAN_currdata, sizeof(_me->CAN_currdata));
+			_me->CAN_predata[_me->num_can] = _me->CAN_currdata[_me->num_can]
+		}
+		break;
+	}
+}

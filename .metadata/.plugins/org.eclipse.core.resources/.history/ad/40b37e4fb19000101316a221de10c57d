@@ -1,0 +1,35 @@
+/*
+ * DS3231.h
+ *
+ *  Created on: Jul 29, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_DRIVER_LIBRARY_DS3231_H_
+#define SRC_DRIVER_LIBRARY_DS3231_H_
+
+#include "main.h"
+#include "stdio.h"
+#include "i2c.h"
+
+#define DS3231_ADDRESS 0xD0
+
+// Convert normal decimal numbers to binary coded decimal
+uint8_t decToBcd(int val);
+
+// Convert binary coded decimal to normal decimal numbers
+int bcdToDec(uint8_t val);
+
+typedef struct {
+	uint8_t seconds;
+	uint8_t minutes;
+	uint8_t hour;
+	uint8_t dayofweek;
+	uint8_t dayofmonth;
+	uint8_t month;
+	uint8_t year;
+} TIME;
+
+extern TIME time;
+
+#endif /* SRC_DRIVER_LIBRARY_DS3231_H_ */

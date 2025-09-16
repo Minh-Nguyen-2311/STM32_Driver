@@ -1,0 +1,3 @@
+../Core/Src/Buffer/ADC_Process.c:14:6:ADC_buf_ctor	24	static
+../Core/Src/Buffer/ADC_Process.c:35:17:ADC_Init_	24	static
+../Core/Src/Buffer/ADC_Process.c:41:13:ADC_Process_	40	static

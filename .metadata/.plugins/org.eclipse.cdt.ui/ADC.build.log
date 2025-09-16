@@ -1,0 +1,18 @@
+21:07:33 **** Incremental Build of configuration Debug for project ADC ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Console/ADC_Console.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Driver_Library" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Console/ADC_Console.d" -MT"Core/Src/Console/ADC_Console.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Console/ADC_Console.o"
+arm-none-eabi-gcc "../Core/Src/Buffer/ADC_Process.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/ADC/Core/Src/Driver_Library" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Buffer/ADC_Process.d" -MT"Core/Src/Buffer/ADC_Process.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Buffer/ADC_Process.o"
+arm-none-eabi-gcc -o "ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Admin\Desktop\STM32_Driver\ADC\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC.elf
+ 
+arm-none-eabi-size   ADC.elf 
+arm-none-eabi-objdump -h -S  ADC.elf  > "ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+   9980	     12	   1740	  11732	   2dd4	ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC.list
+ 
+
+21:07:34 Build Finished. 0 errors, 0 warnings. (took 1s.96ms)
+

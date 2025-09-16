@@ -1,0 +1,5 @@
+../Core/Src/Driver_Library/Queue_LL.c:10:14:newNode	24	static
+../Core/Src/Driver_Library/Queue_LL.c:20:15:createQueue	16	static
+../Core/Src/Driver_Library/Queue_LL.c:27:5:isEmpty	16	static
+../Core/Src/Driver_Library/Queue_LL.c:34:6:enqueue	32	static
+../Core/Src/Driver_Library/Queue_LL.c:48:6:dequeue	24	static

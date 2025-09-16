@@ -1,0 +1,62 @@
+/*
+ * Queue_LL.c
+ *
+ *  Created on: Sep 16, 2025
+ *      Author: Admin
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/* In this case we ultilize the singly LL for normal FIFO operation*/
+
+#define LENGTH 8
+
+struct Node{
+	uint8_t data[LENGTH];
+	uint8_t len;
+	struct Node *next;
+};
+
+struct Queue{
+	struct Node *front, *rear;
+};
+
+// Function to create a new node
+struct Node* newNode(uint8_t data, uint8_t len);
+
+// Function to initialize the queue
+struct Queue* createQueue() {
+    struct Queue* q = (struct Queue*)malloc(sizeof(struct Queue));
+    q->front = q->rear = NULL;
+    return q;
+}
+
+// Function to check if the queue is empty
+int isEmpty(struct Queue* q) {
+    return q->front == NULL;
+}
+
+// Function to add an element to the queue
+void enqueue(struct Queue* q, int new_data) {
+    struct Node* new_node = newNode(new_data);
+    if (isEmpty(q)) {
+        q->front = q->rear = new_node;
+        printQueue(q);
+        return;
+    }
+    q->rear->next = new_node;
+    q->rear = new_node;
+    printQueue(q);
+}
+
+// Function to remove an element from the queue
+void dequeue(struct Queue* q) {
+    if (isEmpty(q)) {
+        return;
+    }
+    struct Node* temp = q->front;
+    q->front = q->front->next;
+    if (q->front == NULL) q->rear = NULL;
+    free(temp);
+    printQueue(q);
+}

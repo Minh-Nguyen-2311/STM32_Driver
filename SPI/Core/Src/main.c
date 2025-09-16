@@ -24,7 +24,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "OOP.h"
+#include "OOP_Console.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,7 +57,11 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+infor_console console_init = {
+		.NumberOfDevices = 0,
+		.num_lcd = 0,
+		.num_ecd = 0
+};
 /* USER CODE END 0 */
 
 /**

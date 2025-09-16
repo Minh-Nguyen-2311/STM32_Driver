@@ -1,0 +1,132 @@
+/*
+ * ADC_Process.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "ADC_Process.h"
+#include "adc.h"
+
+static uint32_t ADC_Init_(Console const * const me);
+static void ADC_Process_(Console const * const me);
+
+void ADC_buf_ctor(ADC_st * const me, void *data, uint8_t ID_tinhieu, uint8_t Adc_index)
+{
+	static struct ConsoleVtbl const vtbl = {
+				/* vtbl of the ADC class */
+				&ADC_Init_,
+				&ADC_Process_
+	};
+
+	OOP_ctor(&me->super, data); /* call superclass' ctor */
+
+	me->super.vptr = &vtbl;  /* override the vptr */
+	me->super.data = (uint32_t*)&me->Adc_data;
+
+	me->ID_tinhieu = ID_tinhieu;
+	me->Adc_data = 0;
+	me->Adc_predata = 0;
+	me->Adc_index = Adc_index;
+	me->len = 8;
+	me->flag_adc = 0;
+}
+
+static uint8_t ADC_Init_(Console const * const me) {
+	ADC_st * const me_ = (ADC_st *)me;
+	(void)me_;
+	return 0;
+}
+
+#if defined(AK176_SFELA_02) || defined(AK176_K211A_02)
+static void ADC_Process_(Console const * const me)
+{
+	ADC_st * const _me = (ADC_st *)me;
+	uint8_t data_send[9] = {0};
+	int32byte i32convert;
+	int16byte i16convert;
+
+#if Num_ADC
+//	_me->Adc_data = ADC_Fillter[_me->Adc_index];
+	//phinh4
+	temADC_VALUE[_me->Adc_index] = adcFiltScale[_me->Adc_index] / (float)SCALE;
+	AdcFilterHysteresis[_me->Adc_index] = hysteresis_round(AdcFilterHysteresis[_me->Adc_index],temADC_VALUE[_me->Adc_index],HYST);//HYST
+	_me->Adc_data = AdcFilterHysteresis[_me->Adc_index];
+#endif
+
+	if((_me->Adc_data != _me->Adc_predata))// && (flagPubADC >= 20))
+	{
+		i16convert.value = htonl_16((uint16_t)_me->len);
+		// gain data
+		memcpy(&data_send[0], i16convert.byte,2);
+		data_send[2] = ID_MACH;
+		data_send[3] = _me->ID_tinhieu;
+		data_send[4] = _me->mode;
+
+		i32convert.value = htonl_32((uint32_t)_me->Adc_data);
+		memcpy(&data_send[5], i32convert.byte, 4);
+		CAN_Transmit(hcan1, data_send, _me->len);
+		_me->Adc_predata = _me->Adc_data;
+		flagPubADC = 0;
+	}
+
+	if(_me->flag_adc){
+		i16convert.value = htonl_16((uint16_t)_me->len);
+		// gain data
+		memcpy(&data_send[0], i16convert.byte,2);
+		data_send[2] = ID_MACH;
+		data_send[3] = _me->ID_tinhieu;
+		data_send[4] = _me->mode;
+
+		i32convert.value = htonl_32((uint32_t)_me->Adc_data);
+		memcpy(&data_send[5], i32convert.byte, 4);
+		CAN_Transmit(hcan1, data_send, _me->len);
+		_me->flag_adc = 0;
+	}
+}
+#else
+static void ADC_Process_(Console const * const me)
+{
+	ADC_st * const _me = (ADC_st *)me;
+	uint8_t data_send[8] = {0};
+	int32byte i32convert;
+	int16byte i16convert;
+
+#if Num_ADC
+//phinh4
+	//	_me->Adc_data = ADC_Fillter[_me->Adc_index];
+	 temADC_VALUE[_me->Adc_index] = adcFiltScale[_me->Adc_index] / (float)SCALE;
+	 AdcFilterHysteresis[_me->Adc_index] = hysteresis_round(AdcFilterHysteresis[_me->Adc_index],temADC_VALUE[_me->Adc_index],HYST);//HYST
+	 _me->Adc_data = AdcFilterHysteresis[_me->Adc_index];
+ //end phinh4
+#endif
+
+	if((_me->Adc_data != _me->Adc_predata) && (flagPubADC >= 10))
+	{
+		i16convert.value = htonl_16((uint16_t)_me->len);
+		// gain data
+		memcpy(&data_send[0], i16convert.byte,2);
+		data_send[2] = ID_MACH;
+		data_send[3] = _me->ID_tinhieu;
+
+		i32convert.value = htonl_32((uint32_t)_me->Adc_data);
+		memcpy(&data_send[4], i32convert.byte,4);
+		CAN_Transmit(hcan1, data_send, _me->len);
+		_me->Adc_predata = _me->Adc_data;
+		flagPubADC = 0;
+	}
+
+	if(_me->flag_adc){
+		i16convert.value = htonl_16((uint16_t)_me->len);
+		// gain data
+		memcpy(&data_send[0], i16convert.byte,2);
+		data_send[2] = ID_MACH;
+		data_send[3] = _me->ID_tinhieu;
+
+		i32convert.value = htonl_32((uint32_t)_me->Adc_data);
+		memcpy(&data_send[4], i32convert.byte,4);
+		CAN_Transmit(hcan1, data_send, _me->len);
+		_me->flag_adc = 0;
+	}
+}
+#endif

@@ -1,0 +1,18 @@
+11:42:02 **** Incremental Build of configuration Debug for project TIMER ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Console/Encoder_Console.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Driver_Library" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Console/Encoder_Console.d" -MT"Core/Src/Console/Encoder_Console.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Console/Encoder_Console.o"
+arm-none-eabi-gcc "../Core/Src/Console/LED_Console.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Buffer" -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Console" -I"C:/Users/Admin/Desktop/STM32_Driver/TIMER/Core/Src/Driver_Library" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Console/LED_Console.d" -MT"Core/Src/Console/LED_Console.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Console/LED_Console.o"
+arm-none-eabi-gcc -o "TIMER.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Admin\Desktop\STM32_Driver\TIMER\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TIMER.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TIMER.elf
+ 
+arm-none-eabi-size   TIMER.elf 
+arm-none-eabi-objdump -h -S  TIMER.elf  > "TIMER.list"
+   text	   data	    bss	    dec	    hex	filename
+  11984	     12	   1868	  13864	   3628	TIMER.elf
+Finished building: default.size.stdout
+ 
+Finished building: TIMER.list
+ 
+
+11:42:03 Build Finished. 0 errors, 0 warnings. (took 956ms)
+

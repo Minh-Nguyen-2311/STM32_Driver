@@ -1,0 +1,11 @@
+/*
+ * Queue_LL.c
+ *
+ *  Created on: Sep 16, 2025
+ *      Author: Admin
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/* In this case we ultilize the singly LL for normal FIFO operation*/
+

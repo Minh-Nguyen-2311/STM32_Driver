@@ -1,0 +1,22 @@
+/*
+ * SineWave.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "SineWave.h"
+
+uint32_t sine_wave[SINE_SAMPLES] = {0};
+
+uint32_t SineWaveCreate(void)
+{
+	int i;
+	for(i=0; i<SINE_SAMPLES; i++)
+	{
+		sine_wave[i] = ((sin(i*2*PI/SINE_SAMPLES) + 1) * (4096/2));
+	}
+	return sine_wave[i];
+}
+
+

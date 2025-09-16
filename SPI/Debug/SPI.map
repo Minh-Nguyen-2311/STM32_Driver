@@ -18,6 +18,12 @@ c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.external
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fprintf.o) (_vfprintf_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+                              ./Core/Src/Driver_Library/Waveshare_LCD.o (printf)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+                              ./Core/Src/Driver_Library/Waveshare_LCD.o (puts)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+                              ./Core/Src/Driver_Library/Waveshare_LCD.o (sprintf)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
@@ -48,6 +54,8 @@ c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.external
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o) (_malloc_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                              c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-signal.o)
@@ -74,6 +82,10 @@ c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.external
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o) (_read_r)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
                               c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o) (errno)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+                              ./Core/Src/Buffer/SPI_Hall_Sensor.o (fmodf)
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+                              c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o) (__ieee754_fmodf)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
                               ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o (__aeabi_uldivmod)
 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
@@ -103,33 +115,340 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x1c c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .text          0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .data          0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .bss           0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_Hall_Sensor.o
- .debug_info    0x0000000000000000       0x21 ./Core/Src/Buffer/SPI_Hall_Sensor.o
- .debug_abbrev  0x0000000000000000       0x13 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .data.hall1    0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .data.hall2    0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .data.hall3    0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .data.hall4    0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.TempVal   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.FilteredVal
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.FilteredValUint32
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.ECD_Value_Linearized
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.ECD_Value
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.ECD_Value_Filters
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.Temp_ECD_Data
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.ECD_Value_Offset
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .text.ECD_buf_ctor
+                0x0000000000000000       0x64 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .text.ECD_Init_
+                0x0000000000000000       0x88 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .text.unwrapped_angle
+                0x0000000000000000       0xbc ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.filtered_angle
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.unwrapped
+                0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .bss.unwrapped_angle_value
+                0x0000000000000000        0x4 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .text.FirstOrderFilter
+                0x0000000000000000       0xac ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .text.ECD_Process_
+                0x0000000000000000      0x404 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .rodata.vtbl.0
+                0x0000000000000000        0x8 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_info    0x0000000000000000      0xb82 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_abbrev  0x0000000000000000      0x24f ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/Src/Buffer/SPI_Hall_Sensor.o
- .debug_macro   0x0000000000000000       0x11 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+                0x0000000000000000       0x40 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_ranges  0x0000000000000000       0x30 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x2d1 ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Buffer/SPI_Hall_Sensor.o
- .debug_line    0x0000000000000000       0x45 ./Core/Src/Buffer/SPI_Hall_Sensor.o
- .debug_str     0x0000000000000000     0x2cdb ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x19b ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_line    0x0000000000000000      0xaf5 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_str     0x0000000000000000    0xbfb35 ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .comment       0x0000000000000000       0x51 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .debug_frame   0x0000000000000000       0xc8 ./Core/Src/Buffer/SPI_Hall_Sensor.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
  .group         0x0000000000000000        0xc ./Core/Src/Buffer/SPI_LCD.o
  .text          0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_LCD.o
  .data          0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_LCD.o
  .bss           0x0000000000000000        0x0 ./Core/Src/Buffer/SPI_LCD.o
- .debug_info    0x0000000000000000       0x21 ./Core/Src/Buffer/SPI_LCD.o
- .debug_abbrev  0x0000000000000000       0x13 ./Core/Src/Buffer/SPI_LCD.o
+ .data.waveshare1
+                0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .data.waveshare2
+                0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .data.waveshare3
+                0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .data.waveshare4
+                0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .text.LCD_buf_ctor
+                0x0000000000000000       0x64 ./Core/Src/Buffer/SPI_LCD.o
+ .text.LCD_Init_
+                0x0000000000000000       0x70 ./Core/Src/Buffer/SPI_LCD.o
+ .text.LCD_Process_
+                0x0000000000000000       0xa8 ./Core/Src/Buffer/SPI_LCD.o
+ .rodata.vtbl.0
+                0x0000000000000000        0x8 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_info    0x0000000000000000      0xa43 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_abbrev  0x0000000000000000      0x221 ./Core/Src/Buffer/SPI_LCD.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/Src/Buffer/SPI_LCD.o
- .debug_macro   0x0000000000000000       0x11 ./Core/Src/Buffer/SPI_LCD.o
+                0x0000000000000000       0x30 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_ranges  0x0000000000000000       0x20 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x3e0 ./Core/Src/Buffer/SPI_LCD.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Buffer/SPI_LCD.o
- .debug_line    0x0000000000000000       0x3d ./Core/Src/Buffer/SPI_LCD.o
- .debug_str     0x0000000000000000     0x2cd3 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x94 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x10e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x8d ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x57 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x29 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0xd5 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x3d ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x145 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x19b ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000      0x117 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/Buffer/SPI_LCD.o
+ .debug_line    0x0000000000000000      0x9ff ./Core/Src/Buffer/SPI_LCD.o
+ .debug_str     0x0000000000000000    0xc0f36 ./Core/Src/Buffer/SPI_LCD.o
  .comment       0x0000000000000000       0x51 ./Core/Src/Buffer/SPI_LCD.o
+ .debug_frame   0x0000000000000000       0x7c ./Core/Src/Buffer/SPI_LCD.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Buffer/SPI_LCD.o
  .group         0x0000000000000000        0xc ./Core/Src/Console/OOP.o
@@ -191,50 +510,691 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Console/OOP.o
  .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Console/SPI_Console.o
  .text          0x0000000000000000        0x0 ./Core/Src/Console/SPI_Console.o
  .data          0x0000000000000000        0x0 ./Core/Src/Console/SPI_Console.o
  .bss           0x0000000000000000        0x0 ./Core/Src/Console/SPI_Console.o
- .debug_info    0x0000000000000000       0x21 ./Core/Src/Console/SPI_Console.o
- .debug_abbrev  0x0000000000000000       0x13 ./Core/Src/Console/SPI_Console.o
+ .bss.LCD       0x0000000000000000      0x120 ./Core/Src/Console/SPI_Console.o
+ .bss.ECD       0x0000000000000000       0x70 ./Core/Src/Console/SPI_Console.o
+ .data.consoles
+                0x0000000000000000       0x20 ./Core/Src/Console/SPI_Console.o
+ .text.User_ctor
+                0x0000000000000000       0xe0 ./Core/Src/Console/SPI_Console.o
+ .debug_info    0x0000000000000000      0xa91 ./Core/Src/Console/SPI_Console.o
+ .debug_abbrev  0x0000000000000000      0x1ba ./Core/Src/Console/SPI_Console.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/Src/Console/SPI_Console.o
- .debug_macro   0x0000000000000000       0x11 ./Core/Src/Console/SPI_Console.o
+                0x0000000000000000       0x20 ./Core/Src/Console/SPI_Console.o
+ .debug_ranges  0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x41a ./Core/Src/Console/SPI_Console.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Console/SPI_Console.o
- .debug_line    0x0000000000000000       0x42 ./Core/Src/Console/SPI_Console.o
- .debug_str     0x0000000000000000     0x2cd8 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x29 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0xd5 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x3d ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x145 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x19b ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000      0x117 ./Core/Src/Console/SPI_Console.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/Console/SPI_Console.o
+ .debug_line    0x0000000000000000      0xa17 ./Core/Src/Console/SPI_Console.o
+ .debug_str     0x0000000000000000    0xc0f9a ./Core/Src/Console/SPI_Console.o
  .comment       0x0000000000000000       0x51 ./Core/Src/Console/SPI_Console.o
+ .debug_frame   0x0000000000000000       0x38 ./Core/Src/Console/SPI_Console.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Console/SPI_Console.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Delay.o
+ .text          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Delay.o
+ .data          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Delay.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/Driver_Library/Delay.o
+ .text.Delay_us
+                0x0000000000000000       0x44 ./Core/Src/Driver_Library/Delay.o
+ .text.Delay_ms
+                0x0000000000000000       0x2e ./Core/Src/Driver_Library/Delay.o
+ .debug_info    0x0000000000000000      0x113 ./Core/Src/Driver_Library/Delay.o
+ .debug_abbrev  0x0000000000000000       0x9b ./Core/Src/Driver_Library/Delay.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./Core/Src/Driver_Library/Delay.o
+ .debug_ranges  0x0000000000000000       0x18 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x1ce ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Driver_Library/Delay.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Driver_Library/Delay.o
+ .debug_line    0x0000000000000000      0x6d5 ./Core/Src/Driver_Library/Delay.o
+ .debug_str     0x0000000000000000    0xbbe11 ./Core/Src/Driver_Library/Delay.o
+ .comment       0x0000000000000000       0x51 ./Core/Src/Driver_Library/Delay.o
+ .debug_frame   0x0000000000000000       0x60 ./Core/Src/Driver_Library/Delay.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Src/Driver_Library/Delay.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
  .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Hall_Sensor.o
  .text          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Hall_Sensor.o
  .data          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Hall_Sensor.o
  .bss           0x0000000000000000        0x0 ./Core/Src/Driver_Library/Hall_Sensor.o
- .debug_info    0x0000000000000000       0x21 ./Core/Src/Driver_Library/Hall_Sensor.o
- .debug_abbrev  0x0000000000000000       0x13 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.u8_spi_read_buffer
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.u8_spi_write_buffer
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.G_in      0x0000000000000000        0x4 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.delta     0x0000000000000000        0x4 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.pre_G_out
+                0x0000000000000000        0x4 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.pre_G_in  0x0000000000000000        0x4 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .bss.loop      0x0000000000000000        0x1 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.csHigh   0x0000000000000000       0x2c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.csLow    0x0000000000000000       0x2c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.spiSend8Bytes
+                0x0000000000000000       0x40 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.sendGet1
+                0x0000000000000000       0x4c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.sendNode
+                0x0000000000000000       0x4c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.hallEncoderInit
+                0x0000000000000000       0x44 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.covertCycle2Liner
+                0x0000000000000000       0xec ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.getPulseLinear
+                0x0000000000000000       0x60 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.getPulseCycle
+                0x0000000000000000       0x9c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.getReversePulseCycle
+                0x0000000000000000       0xb0 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .text.setPulseZero
+                0x0000000000000000       0x4c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_info    0x0000000000000000      0xb2e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_abbrev  0x0000000000000000      0x207 ./Core/Src/Driver_Library/Hall_Sensor.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/Src/Driver_Library/Hall_Sensor.o
- .debug_macro   0x0000000000000000       0x11 ./Core/Src/Driver_Library/Hall_Sensor.o
+                0x0000000000000000       0x70 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_ranges  0x0000000000000000       0x60 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x1d8 ./Core/Src/Driver_Library/Hall_Sensor.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Driver_Library/Hall_Sensor.o
- .debug_line    0x0000000000000000       0x49 ./Core/Src/Driver_Library/Hall_Sensor.o
- .debug_str     0x0000000000000000     0x2cdf ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_line    0x0000000000000000      0x8d4 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_str     0x0000000000000000    0xbc49f ./Core/Src/Driver_Library/Hall_Sensor.o
  .comment       0x0000000000000000       0x51 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .debug_frame   0x0000000000000000      0x1a0 ./Core/Src/Driver_Library/Hall_Sensor.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Driver_Library/Hall_Sensor.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
  .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/Waveshare_LCD.o
  .text          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Waveshare_LCD.o
  .data          0x0000000000000000        0x0 ./Core/Src/Driver_Library/Waveshare_LCD.o
  .bss           0x0000000000000000        0x0 ./Core/Src/Driver_Library/Waveshare_LCD.o
- .debug_info    0x0000000000000000       0x21 ./Core/Src/Driver_Library/Waveshare_LCD.o
- .debug_abbrev  0x0000000000000000       0x13 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.RST_High
+                0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.RST_Low  0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.CS_High  0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.CS_Low   0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.DC_High  0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.DC_Low   0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.DEV_SPI_WRITE
+                0x0000000000000000       0x24 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.DEV_Module_Init
+                0x0000000000000000       0x22 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .bss.Paint     0x0000000000000000       0x18 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .bss.DISPLAY   0x0000000000000000        0x4 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .bss.CLEAR     0x0000000000000000        0x4 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .bss.words     0x0000000000000000       0x10 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .data.area1    0x0000000000000000        0x8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .data.area2    0x0000000000000000        0x8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .data.area3    0x0000000000000000        0x8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .data.area4    0x0000000000000000        0x8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .data.area5    0x0000000000000000        0x8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .rodata        0x0000000000000000      0x222 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_NewImage
+                0x0000000000000000       0x94 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_SetRotate
+                0x0000000000000000       0x54 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_SetMirroring
+                0x0000000000000000       0x80 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_SetPixel
+                0x0000000000000000      0x154 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_Clear
+                0x0000000000000000       0x24 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_ClearWindows
+                0x0000000000000000       0x58 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_DrawPoint
+                0x0000000000000000      0x144 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_DrawLine
+                0x0000000000000000      0x170 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_DrawRectangle
+                0x0000000000000000      0x11c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_DrawCircle
+                0x0000000000000000      0x368 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_DrawImage
+                0x0000000000000000       0xc8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_SetClearFuntion
+                0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_SetDisplayFuntion
+                0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_WriteChar
+                0x0000000000000000       0xd2 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.__ST77xx_WriteChar
+                0x0000000000000000       0xc2 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_WriteString
+                0x0000000000000000       0xce ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_WriteInteger_1Value
+                0x0000000000000000       0x44 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_WriteInteger_2Values
+                0x0000000000000000       0x84 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_DrawHorizontalLine
+                0x0000000000000000       0x4c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_DrawVerticalLine
+                0x0000000000000000       0x4c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.ST77xx_DeleteNumber
+                0x0000000000000000      0x120 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .bss.LCD_1IN14
+                0x0000000000000000        0x6 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_Reset
+                0x0000000000000000       0x34 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SendCommand
+                0x0000000000000000       0x2a ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SendData_8Bit
+                0x0000000000000000       0x30 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SendData_16Bit
+                0x0000000000000000       0x42 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SetAttributes
+                0x0000000000000000       0x5c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_InitReg
+                0x0000000000000000      0x1e6 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_Init
+                0x0000000000000000       0x2a ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SetWindows
+                0x0000000000000000       0xa0 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_Clear
+                0x0000000000000000       0x80 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_Display
+                0x0000000000000000       0xa8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_DisplayWindows
+                0x0000000000000000       0xba ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_DrawPaint
+                0x0000000000000000       0x3e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SetScrollArea
+                0x0000000000000000       0x5c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_SetScroll
+                0x0000000000000000       0x26 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_InitScreen_2Values
+                0x0000000000000000       0x44 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.LCD_1IN14_InitScreen_6Values
+                0x0000000000000000       0x74 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Paint_ClearDMA
+                0x0000000000000000       0xf8 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Display_1IN14_Screen_2Values
+                0x0000000000000000      0x168 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .text.Display_1IN14_Screen_6Values
+                0x0000000000000000      0x114 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_info    0x0000000000000000     0x1e07 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_abbrev  0x0000000000000000      0x2c0 ./Core/Src/Driver_Library/Waveshare_LCD.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/Src/Driver_Library/Waveshare_LCD.o
- .debug_macro   0x0000000000000000       0x11 ./Core/Src/Driver_Library/Waveshare_LCD.o
+                0x0000000000000000      0x198 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_ranges  0x0000000000000000      0x188 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x3bf ./Core/Src/Driver_Library/Waveshare_LCD.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Driver_Library/Waveshare_LCD.o
- .debug_line    0x0000000000000000       0x4b ./Core/Src/Driver_Library/Waveshare_LCD.o
- .debug_str     0x0000000000000000     0x2ce1 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x94 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x10e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x8d ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x57 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x29 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0xd5 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x3d ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x145 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x19b ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_macro   0x0000000000000000      0x117 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_line    0x0000000000000000     0x1647 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_str     0x0000000000000000    0xc150d ./Core/Src/Driver_Library/Waveshare_LCD.o
  .comment       0x0000000000000000       0x51 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .debug_frame   0x0000000000000000      0x70c ./Core/Src/Driver_Library/Waveshare_LCD.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/Src/Driver_Library/Waveshare_LCD.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .group         0x0000000000000000        0xc ./Core/Src/Driver_Library/fonts.o
+ .text          0x0000000000000000        0x0 ./Core/Src/Driver_Library/fonts.o
+ .data          0x0000000000000000        0x0 ./Core/Src/Driver_Library/fonts.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/Driver_Library/fonts.o
+ .rodata.Font7x10
+                0x0000000000000000      0xed8 ./Core/Src/Driver_Library/fonts.o
+ .rodata.Font11x18
+                0x0000000000000000     0x1ab8 ./Core/Src/Driver_Library/fonts.o
+ .rodata.Font16x26
+                0x0000000000000000     0x2698 ./Core/Src/Driver_Library/fonts.o
+ .rodata.Font32x55
+                0x0000000000000000      0x898 ./Core/Src/Driver_Library/fonts.o
+ .rodata.Font32x80
+                0x0000000000000000      0x3c0 ./Core/Src/Driver_Library/fonts.o
+ .data.Font_7x10
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/fonts.o
+ .data.Font_11x18
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/fonts.o
+ .data.Font_16x26
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/fonts.o
+ .data.Font_32x55
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/fonts.o
+ .data.Font_32x80
+                0x0000000000000000        0x8 ./Core/Src/Driver_Library/fonts.o
+ .debug_info    0x0000000000000000      0x235 ./Core/Src/Driver_Library/fonts.o
+ .debug_abbrev  0x0000000000000000       0xc7 ./Core/Src/Driver_Library/fonts.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000      0xa78 ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/Driver_Library/fonts.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/Driver_Library/fonts.o
+ .debug_line    0x0000000000000000      0x382 ./Core/Src/Driver_Library/fonts.o
+ .debug_str     0x0000000000000000     0x3cad ./Core/Src/Driver_Library/fonts.o
+ .comment       0x0000000000000000       0x51 ./Core/Src/Driver_Library/fonts.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Src/Driver_Library/fonts.o
  .group         0x0000000000000000        0xc ./Core/Src/dma.o
  .group         0x0000000000000000        0xc ./Core/Src/dma.o
  .group         0x0000000000000000        0xc ./Core/Src/dma.o
@@ -276,13 +1236,42 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./Core/Src/dma.o
  .bss           0x0000000000000000        0x0 ./Core/Src/dma.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x295 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/dma.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/dma.o
  .debug_macro   0x0000000000000000       0x8e ./Core/Src/dma.o
  .debug_macro   0x0000000000000000       0x51 ./Core/Src/dma.o
  .debug_macro   0x0000000000000000      0x103 ./Core/Src/dma.o
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/dma.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/dma.o
  .debug_macro   0x0000000000000000      0x174 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x225 ./Core/Src/dma.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/dma.o
  .group         0x0000000000000000        0xc ./Core/Src/gpio.o
  .group         0x0000000000000000        0xc ./Core/Src/gpio.o
  .group         0x0000000000000000        0xc ./Core/Src/gpio.o
@@ -397,9 +1386,46 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
  .text          0x0000000000000000        0x0 ./Core/Src/main.o
  .data          0x0000000000000000        0x0 ./Core/Src/main.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main.o
+ .bss.console_init
+                0x0000000000000000        0xc ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0xa78 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x295 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x2e ./Core/Src/main.o
@@ -437,6 +1463,41 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x89 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x225 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x12d ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x29 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xd5 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x3d ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x145 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x19b ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x117 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/spi.o
  .group         0x0000000000000000        0xc ./Core/Src/spi.o
  .group         0x0000000000000000        0xc ./Core/Src/spi.o
@@ -2607,6 +3668,32 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x60 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
                 0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x28 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .text.printf   0x0000000000000000       0x30 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000000       0x74 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .text._puts_r  0x0000000000000000       0xdc c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .text.puts     0x0000000000000000       0x10 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000000       0x3c c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x0000000000000000       0x38 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .text.sprintf  0x0000000000000000       0x40 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000000000       0x6c c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
@@ -2798,6 +3885,20 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x3c c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
                 0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssputs_r
+                0x0000000000000000       0xb6 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000       0xf6 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata._svfprintf_r.str1.1
+                0x0000000000000000       0x11 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text._svfprintf_r
+                0x0000000000000000      0x200 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000000000       0x90 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
@@ -2924,6 +4025,22 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x5c c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
  .ARM.attributes
                 0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .text.fmodf    0x0000000000000000       0x40 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .debug_frame   0x0000000000000000       0x38 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-wf_fmod.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .text.__ieee754_fmodf
+                0x0000000000000000      0x104 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .rodata.Zero   0x0000000000000000        0x8 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .debug_frame   0x0000000000000000       0x30 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(lib_a-ef_fmod.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
@@ -2959,8 +4076,10 @@ LOAD ./Core/Src/Buffer/SPI_Hall_Sensor.o
 LOAD ./Core/Src/Buffer/SPI_LCD.o
 LOAD ./Core/Src/Console/OOP.o
 LOAD ./Core/Src/Console/SPI_Console.o
+LOAD ./Core/Src/Driver_Library/Delay.o
 LOAD ./Core/Src/Driver_Library/Hall_Sensor.o
 LOAD ./Core/Src/Driver_Library/Waveshare_LCD.o
+LOAD ./Core/Src/Driver_Library/fonts.o
 LOAD ./Core/Src/dma.o
 LOAD ./Core/Src/gpio.o
 LOAD ./Core/Src/main.o
@@ -3406,37 +4525,37 @@ LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x0000000000000000     0x6c8b
+.debug_info     0x0000000000000000     0x757d
  .debug_info    0x0000000000000000      0x4ec ./Core/Src/dma.o
  .debug_info    0x00000000000004ec      0x2e2 ./Core/Src/gpio.o
- .debug_info    0x00000000000007ce      0x528 ./Core/Src/main.o
- .debug_info    0x0000000000000cf6      0xaae ./Core/Src/spi.o
- .debug_info    0x00000000000017a4      0x2a8 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_info    0x0000000000001a4c      0x3ec ./Core/Src/stm32f4xx_it.o
- .debug_info    0x0000000000001e38      0x523 ./Core/Src/system_stm32f4xx.o
- .debug_info    0x000000000000235b       0x22 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_info    0x000000000000237d      0x97c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_info    0x0000000000002cf9      0xe1b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_info    0x0000000000003b14      0x94f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_info    0x0000000000004463      0x76a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_info    0x0000000000004bcd      0x966 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_info    0x0000000000005533     0x1758 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_info    0x00000000000007ce      0xe1a ./Core/Src/main.o
+ .debug_info    0x00000000000015e8      0xaae ./Core/Src/spi.o
+ .debug_info    0x0000000000002096      0x2a8 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_info    0x000000000000233e      0x3ec ./Core/Src/stm32f4xx_it.o
+ .debug_info    0x000000000000272a      0x523 ./Core/Src/system_stm32f4xx.o
+ .debug_info    0x0000000000002c4d       0x22 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_info    0x0000000000002c6f      0x97c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_info    0x00000000000035eb      0xe1b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_info    0x0000000000004406      0x94f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_info    0x0000000000004d55      0x76a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_info    0x00000000000054bf      0x966 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_info    0x0000000000005e25     0x1758 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 
-.debug_abbrev   0x0000000000000000     0x1752
+.debug_abbrev   0x0000000000000000     0x17c5
  .debug_abbrev  0x0000000000000000      0x10a ./Core/Src/dma.o
  .debug_abbrev  0x000000000000010a       0xd4 ./Core/Src/gpio.o
- .debug_abbrev  0x00000000000001de      0x1cc ./Core/Src/main.o
- .debug_abbrev  0x00000000000003aa      0x1f3 ./Core/Src/spi.o
- .debug_abbrev  0x000000000000059d       0xd4 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x0000000000000671      0x15f ./Core/Src/stm32f4xx_it.o
- .debug_abbrev  0x00000000000007d0      0x116 ./Core/Src/system_stm32f4xx.o
- .debug_abbrev  0x00000000000008e6       0x12 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_abbrev  0x00000000000008f8      0x20d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_abbrev  0x0000000000000b05      0x316 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_abbrev  0x0000000000000e1b      0x25b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_abbrev  0x0000000000001076      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_abbrev  0x000000000000123a      0x2aa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_abbrev  0x00000000000014e4      0x26e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_abbrev  0x00000000000001de      0x23f ./Core/Src/main.o
+ .debug_abbrev  0x000000000000041d      0x1f3 ./Core/Src/spi.o
+ .debug_abbrev  0x0000000000000610       0xd4 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x00000000000006e4      0x15f ./Core/Src/stm32f4xx_it.o
+ .debug_abbrev  0x0000000000000843      0x116 ./Core/Src/system_stm32f4xx.o
+ .debug_abbrev  0x0000000000000959       0x12 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_abbrev  0x000000000000096b      0x20d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_abbrev  0x0000000000000b78      0x316 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_abbrev  0x0000000000000e8e      0x25b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_abbrev  0x00000000000010e9      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_abbrev  0x00000000000012ad      0x2aa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_abbrev  0x0000000000001557      0x26e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 
 .debug_aranges  0x0000000000000000      0x6c8
  .debug_aranges
@@ -3484,94 +4603,65 @@ LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_ranges  0x00000000000003b8       0x78 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_ranges  0x0000000000000430      0x1c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 
-.debug_macro    0x0000000000000000    0x1e891
+.debug_macro    0x0000000000000000     0x19cf
  .debug_macro   0x0000000000000000      0x1ce ./Core/Src/dma.o
- .debug_macro   0x00000000000001ce      0x295 ./Core/Src/dma.o
- .debug_macro   0x0000000000000463       0x2e ./Core/Src/dma.o
- .debug_macro   0x0000000000000491       0x2f ./Core/Src/dma.o
- .debug_macro   0x00000000000004c0       0x1c ./Core/Src/dma.o
- .debug_macro   0x00000000000004dc       0x22 ./Core/Src/dma.o
- .debug_macro   0x00000000000004fe       0xd9 ./Core/Src/dma.o
- .debug_macro   0x00000000000005d7     0x102d ./Core/Src/dma.o
- .debug_macro   0x0000000000001604      0x11f ./Core/Src/dma.o
- .debug_macro   0x0000000000001723    0x15e82 ./Core/Src/dma.o
- .debug_macro   0x00000000000175a5       0x6d ./Core/Src/dma.o
- .debug_macro   0x0000000000017612     0x367e ./Core/Src/dma.o
- .debug_macro   0x000000000001ac90       0x5c ./Core/Src/dma.o
- .debug_macro   0x000000000001acec      0x96b ./Core/Src/dma.o
- .debug_macro   0x000000000001b657      0x9fe ./Core/Src/dma.o
- .debug_macro   0x000000000001c055      0x115 ./Core/Src/dma.o
- .debug_macro   0x000000000001c16a      0x13e ./Core/Src/dma.o
- .debug_macro   0x000000000001c2a8       0xa5 ./Core/Src/dma.o
- .debug_macro   0x000000000001c34d      0x174 ./Core/Src/dma.o
- .debug_macro   0x000000000001c4c1      0x287 ./Core/Src/dma.o
- .debug_macro   0x000000000001c748       0x5f ./Core/Src/dma.o
- .debug_macro   0x000000000001c7a7      0x236 ./Core/Src/dma.o
- .debug_macro   0x000000000001c9dd      0x12c ./Core/Src/dma.o
- .debug_macro   0x000000000001cb09      0x21e ./Core/Src/dma.o
- .debug_macro   0x000000000001cd27       0x2e ./Core/Src/dma.o
- .debug_macro   0x000000000001cd55      0x11a ./Core/Src/dma.o
- .debug_macro   0x000000000001ce6f       0x7e ./Core/Src/dma.o
- .debug_macro   0x000000000001ceed       0x89 ./Core/Src/dma.o
- .debug_macro   0x000000000001cf76      0x225 ./Core/Src/dma.o
- .debug_macro   0x000000000001d19b      0x12d ./Core/Src/dma.o
- .debug_macro   0x000000000001d2c8      0x1ce ./Core/Src/gpio.o
- .debug_macro   0x000000000001d496      0x1e6 ./Core/Src/main.o
- .debug_macro   0x000000000001d67c      0x1ce ./Core/Src/spi.o
- .debug_macro   0x000000000001d84a      0x1c4 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x000000000001da0e      0x1ce ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x000000000001dbdc      0x1ba ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x000000000001dd96      0x21a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x000000000001dfb0      0x1ba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x000000000001e16a      0x1c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x000000000001e32a      0x1c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x000000000001e4ea      0x1de ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x000000000001e6c8      0x1c9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_macro   0x00000000000001ce      0x1ce ./Core/Src/gpio.o
+ .debug_macro   0x000000000000039c      0x41e ./Core/Src/main.o
+ .debug_macro   0x00000000000007ba      0x1ce ./Core/Src/spi.o
+ .debug_macro   0x0000000000000988      0x1c4 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0000000000000b4c      0x1ce ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0000000000000d1a      0x1ba ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x0000000000000ed4      0x21a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x00000000000010ee      0x1ba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x00000000000012a8      0x1c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x0000000000001468      0x1c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x0000000000001628      0x1de ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x0000000000001806      0x1c9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 
-.debug_line     0x0000000000000000     0x8984
+.debug_line     0x0000000000000000     0x8ce9
  .debug_line    0x0000000000000000      0x685 ./Core/Src/dma.o
  .debug_line    0x0000000000000685      0x688 ./Core/Src/gpio.o
- .debug_line    0x0000000000000d0d      0x71b ./Core/Src/main.o
- .debug_line    0x0000000000001428      0x7ab ./Core/Src/spi.o
- .debug_line    0x0000000000001bd3      0x689 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_line    0x000000000000225c      0x764 ./Core/Src/stm32f4xx_it.o
- .debug_line    0x00000000000029c0      0x70b ./Core/Src/system_stm32f4xx.o
- .debug_line    0x00000000000030cb       0x88 ./Core/Startup/startup_stm32f407vgtx.o
- .debug_line    0x0000000000003153      0x971 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x0000000000003ac4      0xc20 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x00000000000046e4      0xed5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_line    0x00000000000055b9      0xae5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x000000000000609e      0xceb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x0000000000006d89     0x1bfb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_line    0x0000000000000d0d      0xa80 ./Core/Src/main.o
+ .debug_line    0x000000000000178d      0x7ab ./Core/Src/spi.o
+ .debug_line    0x0000000000001f38      0x689 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_line    0x00000000000025c1      0x764 ./Core/Src/stm32f4xx_it.o
+ .debug_line    0x0000000000002d25      0x70b ./Core/Src/system_stm32f4xx.o
+ .debug_line    0x0000000000003430       0x88 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_line    0x00000000000034b8      0x971 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x0000000000003e29      0xc20 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x0000000000004a49      0xed5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_line    0x000000000000591e      0xae5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x0000000000006403      0xceb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x00000000000070ee     0x1bfb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 
-.debug_str      0x0000000000000000    0xbdfe5
- .debug_str     0x0000000000000000    0xbc178 ./Core/Src/dma.o
+.debug_str      0x0000000000000000    0xc2ca6
+ .debug_str     0x0000000000000000    0xbc167 ./Core/Src/dma.o
                                       0xbc3fa (size before relaxing)
- .debug_str     0x00000000000bc178       0x2c ./Core/Src/gpio.o
+ .debug_str     0x00000000000bc167       0x2c ./Core/Src/gpio.o
                                       0xbbedd (size before relaxing)
- .debug_str     0x00000000000bc1a4      0x1f2 ./Core/Src/main.o
-                                      0xbc0e0 (size before relaxing)
- .debug_str     0x00000000000bc396      0x4e3 ./Core/Src/spi.o
+ .debug_str     0x00000000000bc193     0x52d8 ./Core/Src/main.o
+                                      0xc1248 (size before relaxing)
+ .debug_str     0x00000000000c146b       0xd4 ./Core/Src/spi.o
                                       0xbc470 (size before relaxing)
- .debug_str     0x00000000000bc879       0x2c ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x00000000000c153f       0x2c ./Core/Src/stm32f4xx_hal_msp.o
                                       0xbbedd (size before relaxing)
- .debug_str     0x00000000000bc8a5       0xf4 ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00000000000c156b       0xf4 ./Core/Src/stm32f4xx_it.o
                                       0xbc0fb (size before relaxing)
- .debug_str     0x00000000000bc999       0xdb ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x00000000000c165f       0xdb ./Core/Src/system_stm32f4xx.o
                                       0xbbf8d (size before relaxing)
- .debug_str     0x00000000000bca74       0x36 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_str     0x00000000000c173a       0x36 ./Core/Startup/startup_stm32f407vgtx.o
                                          0x64 (size before relaxing)
- .debug_str     0x00000000000bcaaa      0x60d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x00000000000c1770      0x60d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
                                       0xbcb11 (size before relaxing)
- .debug_str     0x00000000000bd0b7      0x341 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00000000000c1d7d      0x341 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
                                       0xbc844 (size before relaxing)
- .debug_str     0x00000000000bd3f8      0x2eb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_str     0x00000000000c20be      0x2eb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
                                       0xbc3a7 (size before relaxing)
- .debug_str     0x00000000000bd6e3      0x15d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x00000000000c23a9      0x15d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
                                       0xbc108 (size before relaxing)
- .debug_str     0x00000000000bd840      0x233 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00000000000c2506      0x233 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
                                       0xbc3c1 (size before relaxing)
- .debug_str     0x00000000000bda73      0x572 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_str     0x00000000000c2739      0x56d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
                                       0xbc851 (size before relaxing)
 
 .comment        0x0000000000000000       0x50

@@ -1,0 +1,2 @@
+../Core/Src/Driver_Library/Delay.c:10:6:Delay_us	24	static
+../Core/Src/Driver_Library/Delay.c:15:6:Delay_ms	24	static

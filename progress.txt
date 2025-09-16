@@ -1,0 +1,4 @@
+07/09/2025: Done USART, TIMER, SPI, SDIO_I2S
+08/09/2025: Done Ethernet, partly done ADC
+13/09/2025: Done ADC, I2C
+16/09/2025: Done CAN_F1, CAN_F4

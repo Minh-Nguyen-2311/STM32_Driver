@@ -1,0 +1,12 @@
+/*
+ * ADC_Console.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#include "OOP.h"
+#include "OOP_Console.h"
+#include "ADC_Process.h"
+
+#define NUM_ADC	4

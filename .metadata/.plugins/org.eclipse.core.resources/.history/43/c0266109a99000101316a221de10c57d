@@ -1,0 +1,58 @@
+/*
+ * ADC_Process.h
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_BUFFER_ADC_PROCESS_H_
+#define SRC_BUFFER_ADC_PROCESS_H_
+
+#include "main.h"
+#include "OOP.h"
+#include "ADC.h"
+#include <string.h>
+
+typedef struct{
+	OOP super;
+
+	uint32_t Adc_data;
+	uint32_t Adc_predata;
+	uint8_t Adc_index;		// 0 to Num_ADC - 1
+	uint8_t ID_tinhieu;
+	uint8_t len;
+}ADC_st;
+
+#if defined(AK176_SFELA_02) || defined(AK176_K211A_02)
+void ADC_buf_ctor(ADC_st * const me, void *data, uint8_t ID_tinhieu,
+		uint8_t mode, uint8_t Adc_index);
+#else
+void ADC_buf_ctor(ADC_st * const me, void *data, uint8_t ID_tinhieu, uint8_t Adc_index);
+#endif
+
+typedef union
+{
+	int16_t value;
+	uint8_t byte[2];
+}int16byte;
+
+typedef union
+{
+	int32_t value;
+	uint8_t byte[4];
+}int32byte;
+
+#define htonl_16(x) ((((x) & (uint16_t)0x00ffUL) << 8) | \
+                     (((x) & (uint16_t)0xff00UL) >>  8))
+
+#define htonl_32(x) ((((x) & (uint32_t)0x000000ffUL) << 24) | \
+                     (((x) & (uint32_t)0x0000ff00UL) <<  8) | \
+                     (((x) & (uint32_t)0x00ff0000UL) >>  8) | \
+                     (((x) & (uint32_t)0xff000000UL) >> 24))
+
+extern volatile uint16_t ADC_Fillter[Num_ADC];
+extern volatile float temADC_VALUE[Num_ADC];
+extern volatile uint32_t adcFiltScale[Num_ADC];
+extern uint16_t AdcFilterHysteresis[Num_ADC];
+
+#endif /* SRC_BUFFER_ADC_PROCESS_H_ */

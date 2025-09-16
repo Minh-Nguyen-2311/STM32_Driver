@@ -1,0 +1,53 @@
+/*
+ * Queue_LL.c
+ *
+ *  Created on: Sep 16, 2025
+ *      Author: Admin
+ */
+#include "Queue_LL.h"
+
+struct Node* newNode(uint8_t *data, uint8_t len)
+{
+	struct Node *node = (struct Node*)malloc(sizeof(struct Node));
+	if(node == NULL) return NULL;
+	memcpy(node->data, data, len);
+	node->len = len;
+	node->next = NULL;
+	return node;
+}
+
+struct Queue* createQueue()
+{
+	struct Queue* queue = (struct Queue*)malloc(sizeof(struct Queue));
+	queue->front = queue->rear = NULL;
+	return queue;
+}
+
+int isEmpty(struct Queue* q)
+{
+	if (q->front == NULL && q->rear == NULL)
+		return 1;
+	return 0;
+}
+
+void enqueue(struct Queue* q, uint8_t *data, uint8_t len)
+{
+	struct Node *temp = newNode(data, len);
+	if(temp == NULL) return;
+	// If queue is empty, then new node is front and rear both
+	if (q->rear == NULL) {
+		q->front = q->rear = temp;
+		return;
+	}
+	// Add the new node at the end of queue and change rear
+	q->rear->next = temp;
+	q->rear = temp;
+}
+
+void dequeue(struct Queue* q)
+{
+	struct Node *temp = q->front;
+	if (temp == NULL) return;
+	q->front = q->front->next;
+	free(temp);
+}

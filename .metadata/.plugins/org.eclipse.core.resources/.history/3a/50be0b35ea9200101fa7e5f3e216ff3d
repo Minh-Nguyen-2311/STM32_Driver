@@ -1,0 +1,32 @@
+/*
+ * DAC_Process.h
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: Admin
+ */
+
+#ifndef SRC_BUFFER_DAC_PROCESS_H_
+#define SRC_BUFFER_DAC_PROCESS_H_
+
+#include "OOP.h"
+#include "main.h"
+
+typedef struct
+{
+	OOP super;
+
+	uint8_t ID_Signal;
+
+	uint32_t DAC_data[SINE_SAMPLES];
+
+	uint8_t num_dac;
+}DAC_st;
+
+void DAC_buf_ctor(DAC_st * const me, void *data, uint8_t ID_Signal, uint8_t num_dac);
+
+extern DAC_HandleTypeDef hdac;
+extern DMA_HandleTypeDef hdma_dac1;
+extern TIM_HandleTypeDef htim6;
+
+
+#endif /* SRC_BUFFER_DAC_PROCESS_H_ */
